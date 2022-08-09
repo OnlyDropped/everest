@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main {
+  flex-grow: 1;
+  margin-top: 0px;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  @extend %Onest-Regular-400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+  transition: all 0.6s ease-in-out;
+  &:hover {
+    color: #2a79cc;
+  }
+}
+
+input,
+textarea {
+  &::placeholder {
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878c9e;
+  }
+}
+/*
+path:hover{
+  //fill: rgba($color: #2A79CC, $alpha: 0.2);
+  fill: #878c9e;
+}
+*/
+
