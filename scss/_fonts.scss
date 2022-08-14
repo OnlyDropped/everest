@@ -19,6 +19,16 @@
 }
 
 @font-face{
+  font-family: 'Onest-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Onest-Bold'),
+       url('../fonts/Onest-Bold.woff2') format("woff2"),
+       url('../fonts/Onest-Bold.woff') format("woff");
+  font-display: swap;
+}
+
+@font-face{
   font-family: 'Onest-ExtraBold';
   font-weight: 800;
   font-style: normal;

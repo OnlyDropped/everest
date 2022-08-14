@@ -6,7 +6,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  
 }
 
 .main {
@@ -18,6 +17,14 @@ body {
   max-width: 1350px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.title {
+  @extend %Onest-ExtraBold-800;
+  font-size: 48px;
+  line-height: 52px;
+  color: #0e192e;
+  margin-bottom: 48px;
 }
 
 a {
@@ -47,3 +54,36 @@ path:hover{
 }
 */
 
+.breadcrumbs {
+  &__inner {
+    padding: 32px 0 34px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item + .breadcrumbs__item {
+    margin-left: 40px;
+  }
+  &__item {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      right: -22px;
+      top: 8px;
+      width: 4px;
+      height: 4px;
+      background: #2a79cc;
+      border-radius: 50%;
+    }
+    &:last-of-type::after{
+      display: none;
+    }
+  }
+  &__link {
+    font-size: 12px;
+    line-height: 18px;
+    color: #2a79cc;
+  }
+}

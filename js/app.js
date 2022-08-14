@@ -5,3 +5,33 @@ $('.main-slider').slick({
   prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/arrow-prev.svg" alt=""></button>',
   nextArrow: '<button type="button" class="slick-next"><img src="img/icons/arrow-next.svg" alt=""></button>'
 });
+
+
+const btn = document.querySelector('.header-bottom__menu');
+const js_menu = document.querySelector('.header-menu');
+
+btn.addEventListener('click', function(e) {
+  e.preventDefault();
+  btn.classList.toggle('active');
+  js_menu.classList.toggle('active');
+});
+
+
+$('.header-bottom__menu').click(function(){
+  $('.header-bottom__icon').toggleClass('open');
+});
+
+$('.category-filter__item-title').on('click', function () {
+  $(this).siblings().slideToggle(700);
+  $('.category-filter__arrow-top', this).toggleClass('category-filter__arrow-top--active')
+});
+
+
+$('.category-content__favorite').on('click', function () {
+  $('.category-content__favorite').toggleClass('category-content__favorite--active');
+});
+
+$('.category-content__compare').on('click', function () {
+  $('.category-content__compare').toggleClass('category-content__compare--active');
+});
+
