@@ -35,3 +35,17 @@ $('.category-content__compare').on('click', function () {
   $('.category-content__compare').toggleClass('category-content__compare--active');
 });
 
+
+$('.category-filter__slider').ionRangeSlider({
+  onStart: function (data){
+    $('.category-filter__price-from').text(data.from);
+    $('.category-filter__price-to').text(data.to);
+  },
+  onChange: function (data) {
+    $('.category-filter__price-from').text(data.from);
+    $('.category-filter__price-to').text(data.to);
+  },
+});
+
+$('.category-content__select').styler({})
+
