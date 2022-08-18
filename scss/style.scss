@@ -1140,14 +1140,222 @@
     justify-content: space-between;
   }
 }
-.other{
-  &__inner{
+.other {
+  &__inner {
     padding-bottom: 160px;
   }
 }
 
+.tabs-main {
+  &__inner {
+    padding: 40px 0 80px;
+  }
+  &__tab {
+    @extend %Onest-ExtraBold-800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #0e192e;
+    padding-bottom: 32px;
+    margin-bottom: -2px;
+    //background-color: rgba($color: #0e192e, $alpha: 0.2);
+  }
+  &__tab + .tabs-main__tab {
+    margin-left: 32px;
+  }
+  &__review,
+  &__question {
+    position: relative;
+    .tabs-main__span {
+      position: absolute;
+      top: -15px;
+      right: -18px;
+    }
+  }
+  &__span {
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2a79cc;
+  }
+  &__content {
+    padding-top: 60px;
+  }
+  &__item {
+    width: 100%;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    max-width: 984px;
+    width: 100%;
+  }
+  &__title,
+  &__techs-title {
+    @extend %Onest-ExtraBold-800;
+    text-transform: uppercase;
+    color: #0e192e;
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
 
+  &__text {
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+    margin: 16px 0 68px;
+  }
+  &__techs-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  &__items + .tabs-main__items {
+    margin-top: 20px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878c9e;
+  }
+  &__items-span {
+    width: 424px;
+    color: #0e192e;
+  }
+  &__box {
+    width: 312px;
+    margin-left: auto;
+  }
+  &__questions {
+    border: 1px solid #d8e1ea;
+    border-radius: 4px;
+    padding: 32px;
+  }
+  &__questions-title {
+    @extend %Onest-ExtraBold-800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #0e192e;
+    margin: 32px 0 8px;
+  }
+  &__questions-text {
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+    margin-bottom: 32px;
+  }
+  &__questions-btn {
+    width: 100%;
+    padding: 14px 0px 13px;
+    background: #2a79cc;
+    border-radius: 4px;
+    @extend %Onest-Bold-700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__reviews {
+    max-width: 872px;
+    width: 100%;
+  }
+  &__review + .tabs-main__review {
+    margin-top: 60px;
+  }
+  &__head {
+    display: flex;
+    align-items: center;
+  }
+  &__author {
+    @extend %Onest-Bold-700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+  }
+  &__bullet {
+    width: 4px;
+    height: 4px;
+    background: #2a79cc;
+    margin: 0 18px;
+    border-radius: 50%;
+  }
+  &__date {
+    @extend %Onest-Regular-400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #878c9e;
+  }
+  &__descriptions {
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+    margin: 12px 0 16px;
+  }
+  &__rating,
+  &__like,
+  &__dislike {
+    display: flex;
+    align-items: center;
+  }
+  &__dislike {
+    margin-left: 8px;
+  }
+  &__like,
+  &__dislike {
+    display: flex;
+    align-items: center;
+    @extend %Onest-Regular-400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #878c9e;
+    cursor: pointer;
+    svg {
+      margin-right: 8px;
+    }
+  }
+  &__ask {
+    display: flex;
+    margin-top: 32px;
+  }
+  &__comments {
+    margin-left: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+  }
+  &__admin {
+    @extend %Onest-Bold-700;
+  }
+  &__comment {
+    @extend %Onest-Regular-400;
+    margin-top: 12px;
+  }
+}
 
+.tabs {
+  &__content {
+    width: 100%;
+    border-bottom: 1px solid #d8e1ea;
+  }
+}
+.tabs-wrapper {
+  .active {
+    border-bottom: 2px solid #2a79cc;
+  }
+}
 
 .footer {
   background: #091f3a;

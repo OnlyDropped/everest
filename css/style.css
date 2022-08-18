@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'Onest-Regular';
   font-weight: 400;
@@ -32,28 +31,28 @@
 }
 
 a, input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input:-ms-input-placeholder,
-textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::-ms-input-placeholder,
-textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::placeholder,
-textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -65,13 +64,13 @@ textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .c
   font-style: normal;
 }
 
-.category-filter__item-title, .product-info__title, .product-info__order, .product-info__add-cart {
+.category-filter__item-title, .product-info__title, .product-info__order, .product-info__add-cart, .tabs-main__questions-btn, .tabs-main__author, .tabs-main__admin {
   font-family: "Onest-Bold", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.title, .header-menu__btn, .header-bottom__menu, .header-bottom__search, .main-slider__title, .main-slider__more, .catalog__title, .news__tag, .catalog-main__title, .category-content__price-new, .seo-category__title, .seo-category__info-title, .product-info__price-new, .footer-top__link, .footer-top__button, .footer-top__contact, .footer-bottom__link {
+.title, .header-menu__btn, .header-bottom__menu, .header-bottom__search, .main-slider__title, .main-slider__more, .catalog__title, .news__tag, .catalog-main__title, .category-content__price-new, .seo-category__title, .seo-category__info-title, .product-info__price-new, .tabs-main__tab, .tabs-main__title, .tabs-main__techs-title, .tabs-main__questions-title, .footer-top__link, .footer-top__button, .footer-top__contact, .footer-bottom__link {
   font-family: "Onest-ExtraBold", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -1788,61 +1787,246 @@ path:hover{
   padding-bottom: 160px;
 }
 
-.tabs {
-  width: 100%;
-  max-width: 500px;
+.tabs-main__inner {
+  padding: 40px 0 80px;
 }
 
-/* Стили для списка вкладок */
-.tab-header {
-  list-style: none;
-  padding-left: 0;
+.tabs-main__tab {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #0e192e;
+  padding-bottom: 32px;
+  margin-bottom: -2px;
+}
+
+.tabs-main__tab + .tabs-main__tab {
+  margin-left: 32px;
+}
+
+.tabs-main__review, .tabs-main__question {
+  position: relative;
+}
+
+.tabs-main__review .tabs-main__span, .tabs-main__question .tabs-main__span {
+  position: absolute;
+  top: -15px;
+  right: -18px;
+}
+
+.tabs-main__span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a79cc;
+}
+
+.tabs-main__content {
+  padding-top: 60px;
+}
+
+.tabs-main__item {
+  width: 100%;
+}
+
+.tabs-main__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tabs-main__info {
+  max-width: 984px;
+  width: 100%;
+}
+
+.tabs-main__title, .tabs-main__techs-title {
+  text-transform: uppercase;
+  color: #0e192e;
+}
+
+.tabs-main__title {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.tabs-main__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+  margin: 16px 0 68px;
+}
+
+.tabs-main__techs-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.tabs-main__items + .tabs-main__items {
+  margin-top: 20px;
+}
+
+.tabs-main__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #878c9e;
+}
+
+.tabs-main__items-span {
+  width: 424px;
+  color: #0e192e;
+}
+
+.tabs-main__box {
+  width: 312px;
+  margin-left: auto;
+}
+
+.tabs-main__questions {
+  border: 1px solid #d8e1ea;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.tabs-main__questions-title {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #0e192e;
+  margin: 32px 0 8px;
+}
+
+.tabs-main__questions-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+  margin-bottom: 32px;
+}
+
+.tabs-main__questions-btn {
+  width: 100%;
+  padding: 14px 0px 13px;
+  background: #2a79cc;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.tabs-main__reviews {
+  max-width: 872px;
+  width: 100%;
+}
+
+.tabs-main__review + .tabs-main__review {
+  margin-top: 60px;
+}
+
+.tabs-main__head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 0;
 }
 
-/* Стили для вкладки */
-.tab-header__item {
-  padding: 10px 20px;
-  margin-right: 5px;
+.tabs-main__author {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+}
+
+.tabs-main__bullet {
+  width: 4px;
+  height: 4px;
+  background: #2a79cc;
+  margin: 0 18px;
+  border-radius: 50%;
+}
+
+.tabs-main__date {
+  font-size: 14px;
+  line-height: 21px;
+  color: #878c9e;
+}
+
+.tabs-main__descriptions {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+  margin: 12px 0 16px;
+}
+
+.tabs-main__rating, .tabs-main__like, .tabs-main__dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tabs-main__dislike {
+  margin-left: 8px;
+}
+
+.tabs-main__like, .tabs-main__dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #878c9e;
   cursor: pointer;
-  border: 1px solid #ddd;
 }
 
-/* Стили для активной вкладки */
-.tab-header__item.active {
-  color: red;
-  border-bottom: none;
-  position: relative;
-  background-color: #fff;
+.tabs-main__like svg, .tabs-main__dislike svg {
+  margin-right: 8px;
 }
 
-/* Стиль для списка контейнеров с содержимым вкладок */
-.tab-content {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.tabs-main__ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
 }
 
-/* Стили для контейнера с содержимым вкладки. По умолчанию скрыт. */
-.tab-content__item {
-  display: none;
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin-top: -1px;
+.tabs-main__comments {
+  margin-left: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
 }
 
-/* Стили для активного контейнера вкладки */
-.tab-content__item.active {
-  display: block;
+.tabs-main__comment {
+  margin-top: 12px;
+}
+
+.tabs__content {
+  width: 100%;
+  border-bottom: 1px solid #d8e1ea;
+}
+
+.tabs-wrapper .active {
+  border-bottom: 2px solid #2a79cc;
 }
 
 .footer {

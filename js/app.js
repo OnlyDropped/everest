@@ -49,3 +49,4 @@ $('.category-filter__slider').ionRangeSlider({
 
 $('.category-content__select').styler({})
 
+
