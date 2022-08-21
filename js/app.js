@@ -49,4 +49,9 @@ $('.category-filter__slider').ionRangeSlider({
 
 $('.category-content__select').styler({})
 
+/*
+$('.lk-main__button').on('click', function name(params) {
+  $('.lk-main__button').toggleClass('lk-main__button--active');
+})
+*/
 

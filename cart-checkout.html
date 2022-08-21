@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-empty">
+
+          <div class="header-empty__inner">
+            <a class="header__logo" href="#">
+              <img src="img/icons/logo.svg" alt="logo" />
+            </a>
+
+            <div class="header-nav">
+
+              <div class="header-top">
+                <div class="header-top__wrapper">
+                  <a class="header-top__town" href="#">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.39865 1.26124C1.75585 1.76962 1.21651 2.40889 0.812645 3.14112C0.408779 3.87336 0.148614 4.68362 0.0475922 5.52384C-0.05343 6.36406 0.00674892 7.2171 0.224557 8.03233C0.442365 8.84757 0.813364 9.6084 1.31554 10.2696L5.46115 15.7312C5.52482 15.8151 5.60559 15.8828 5.69745 15.9293C5.78932 15.9758 5.88995 16 5.99188 16C6.09381 16 6.19443 15.9758 6.2863 15.9293C6.37817 15.8828 6.45893 15.8151 6.5226 15.7312L10.6845 10.2782C11.1866 9.61696 11.5576 8.85613 11.7754 8.04089C11.9932 7.22566 12.0534 6.37262 11.9524 5.5324C11.8514 4.69218 11.5912 3.88192 11.1874 3.14968C10.7835 2.41745 10.2442 1.77818 9.60135 1.2698C8.56338 0.447122 7.30014 0.00154763 6.00135 4.02416e-06C4.70257 -0.00153958 3.43838 0.44103 2.39865 1.26124ZM5.54509 9.67613C4.8935 9.58608 4.27885 9.30562 3.77069 8.86648C3.26254 8.42735 2.88118 7.84709 2.66979 7.19137C2.45839 6.53565 2.4254 5.83067 2.57454 5.15622C2.72369 4.48176 3.04902 3.86477 3.51371 3.37508C3.97839 2.8854 4.56388 2.54256 5.2039 2.38539C5.84392 2.22822 6.51291 2.26299 7.13515 2.48576C7.75739 2.70853 8.30802 3.1104 8.72474 3.6459C9.14145 4.18139 9.40759 4.82912 9.49304 5.51576C9.56321 6.07962 9.50942 6.65292 9.33583 7.19137C9.16224 7.72982 8.87349 8.21901 8.49191 8.62113C8.11032 9.02324 7.64611 9.32752 7.13515 9.51046C6.62419 9.69339 6.08015 9.75007 5.54509 9.67613Z" fill="#2A79CC"/>
+                    </svg>
+                    Казань
+                  </a>
+                  <a class="header-top__phone" href="tel:+78552448409">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.46729e-05 3.21478C0.0125152 2.31304 0.418458 1.35264 1.23659 0.558985C1.91732 -0.0987875 2.9072 -0.120405 3.64414 0.206938C3.95328 0.345904 4.15313 0.586778 4.28428 0.895591C4.58405 1.59969 4.84948 2.32231 5.19609 3.00479C5.52397 3.64712 5.35222 4.1721 4.95565 4.68782C4.84011 4.83914 4.70896 4.9781 4.58718 5.12633C4.41543 5.33324 4.40294 5.52162 4.55283 5.74705C5.4459 7.10583 6.62001 8.13726 8.13137 8.78268C8.43427 8.91239 8.60913 8.87224 8.81523 8.6221C9.07441 8.30711 9.33046 7.98903 9.59276 7.67713C9.85194 7.36523 10.1861 7.2695 10.5733 7.36523C11.0448 7.48258 11.4663 7.72654 11.9035 7.92727C12.3938 8.15271 12.8778 8.38432 13.3649 8.61592C13.8833 8.85989 14.0456 9.15017 13.9894 9.82956C13.8989 10.895 13.4492 11.7813 12.5999 12.4576C11.9691 12.9609 11.2478 13.0814 10.4671 12.9517C9.45537 12.7849 8.50921 12.4112 7.5568 12.0592C5.83623 11.423 4.40919 10.3638 3.13827 9.07915C2.22022 8.14962 1.38648 7.15215 0.740089 6.01263C0.29043 5.21589 -0.00309796 4.36974 2.46729e-05 3.21478Z" fill="#2A79CC"/>
+                    </svg>
+                    +7 8552 44-84-09
+                  </a>
+                  <ul class="header-top__list">
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Доставка</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Оплата</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Прайс-лист</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Оптовикам</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Вакансии</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Новости</a>
+                    </li>
+                    <li class="header-top__item">
+                      <a class="header-top__link" href="#">Контакты</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="header-bottom">
+                <button class="header-bottom__menu">
+                  <!--
+                  <img src="img/icons/menu.svg" alt="menu">
+                  -->
+                  <div id="nav-icon6" class="header-bottom__icon">
+                    <span></span>
+                  </div>
+                  Каталог
+                </button>
+                <div class="header-menu">
+                  <div class="container">
+                    <div class="header-menu__inner">
+                      <ul class="header-menu__categories">
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Эмали</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Краски</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Пены, герметики, клей</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Защита для древесины</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Инструменты</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Оконная комплектация</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Общестроительные материалы</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Крепеж</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Хозтовары</button>
+                      </li>
+                      <li class="header-menu__item">
+                        <button class="header-menu__btn">Режущие инструменты</button>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                    
+                </div>
+                <form class="header-bottom__form" action="#">
+                  <label class="header-bottom__label" for="#">
+                    <input class="header-bottom__text" type="text" placeholder="Поиск товаров">
+                    <button class="header-bottom__search">Найти</button>
+                  </label>
+                </form>
+                <div class="header-bottom__fuctional">
+                  <button class="header-bottom__btn header-bottom__btn--user">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.98604 20C7.8678 20 5.75476 20 3.63652 20C1.51307 20 -0.136766 18.2863 0.00896071 16.1715C0.0974377 14.8432 0.774026 13.8431 1.95025 13.2233C3.40231 12.4628 4.95326 11.9783 6.56667 11.7127C7.26928 11.5981 7.64921 11.0355 7.43582 10.4313C7.35776 10.2073 7.20162 10.051 7.01426 9.92083C5.6871 9.01969 4.91163 7.76956 4.6462 6.19127C4.1882 3.42536 6.17112 0.612567 8.93993 0.096888C12.0158 -0.476088 14.9095 1.55016 15.3311 4.64424C15.6278 6.84759 14.8002 8.6134 12.9891 9.91041C12.5571 10.2229 12.3957 10.6084 12.5467 11.0459C12.6872 11.4522 12.9943 11.6398 13.4002 11.7075C15.0032 11.9575 16.5281 12.4523 17.9802 13.1816C19.3386 13.8639 20.1609 15.3641 19.9735 16.7757C19.7549 18.3905 18.688 19.5729 17.1423 19.9167C16.882 19.974 16.6114 19.9948 16.3408 19.9948C14.2173 20 12.0991 20 9.98604 20Z" fill="#2A79CC"/>
+                    </svg>
+                  </button>
+                  <button class="header-bottom__btn header-bottom__btn--compare">
+                    <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="10" width="3" height="12" rx="1.5" fill="#2A79CC"/>
+                      <rect x="15" y="6" width="3" height="16" rx="1.5" fill="#2A79CC"/>
+                      <rect x="5" width="3" height="22" rx="1.5" fill="#2A79CC"/>
+                      <rect x="10" y="14" width="3" height="8" rx="1.5" fill="#2A79CC"/>
+                    </svg>
+                  </button>
+                  <button class="header-bottom__btn header-bottom__btn--favorite">
+                    <div class="header-bottom__num">2</div>
+                    <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 5.43513C20.9719 6.8678 20.5224 8.13647 19.5392 9.15912C16.8283 11.9811 14.1034 14.7885 11.3785 17.6008C10.8588 18.1363 10.1471 18.1314 9.6274 17.596C6.93057 14.803 4.215 12.0293 1.54158 9.21218C0.0807906 7.66856 -0.359318 5.79691 0.296163 3.74196C0.961008 1.66772 2.40775 0.447288 4.49124 0.0806774C6.9493 -0.348643 9.38862 1.19498 10.222 3.65513C10.2267 3.66478 10.2267 3.66961 10.2267 3.67925C10.2735 3.82397 10.3157 3.97833 10.5123 3.97351C10.6949 3.96868 10.737 3.82397 10.7792 3.68408C10.9899 3.03768 11.2942 2.43953 11.7343 1.93303C13.1764 0.27363 14.9789 -0.363115 17.0718 0.201273C19.1834 0.770485 20.4522 2.24658 20.9064 4.45107C20.9719 4.77426 21 5.10228 21 5.43513Z" fill="#2A79CC"/>
+                    </svg>
+                  </button>
+                  <button class="header-bottom__btn header-bottom__btn--cart">
+                    <div class="header-bottom__num">2</div>
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.63955 1.60547C2.01228 1.60547 1.41561 1.61049 0.824039 1.60547C0.487455 1.60044 0.237567 1.44464 0.0896743 1.15314C-0.0531188 0.876724 -0.0225203 0.600305 0.161071 0.343988C0.319163 0.112801 0.553752 0.0072595 0.834238 0.00223369C1.6145 0.00223369 2.39986 -0.00279211 3.18012 0.00223369C3.6646 0.0072595 3.95529 0.238447 4.07258 0.705846C4.28677 1.53008 4.49076 2.35934 4.71005 3.21875C4.80695 3.21875 4.90894 3.21875 5.00584 3.21875C10.1056 3.21875 15.2002 3.21875 20.3 3.21875C21.4168 3.21875 22.2175 4.21888 21.9472 5.28436C21.325 7.75203 20.6978 10.2147 20.0705 12.6823C19.8512 13.5468 19.1576 14.0695 18.2448 14.0695C14.5832 14.0695 10.9215 14.0695 7.25993 14.0695C6.30627 14.0695 5.6331 13.5468 5.40362 12.6321C4.73555 9.98851 4.06238 7.34494 3.39431 4.70136C3.13423 3.68112 2.89454 2.65586 2.63955 1.60547Z" fill="#2A79CC"/>
+                      <path d="M9.8914 18.1052C9.8863 19.1506 9.01424 19.9999 7.95349 19.9949C6.89784 19.9899 6.02579 19.1304 6.02579 18.0901C6.02579 17.0347 6.90804 16.1753 7.97899 16.1853C9.03974 16.2004 9.8965 17.0598 9.8914 18.1052Z" fill="#2A79CC"/>
+                      <path d="M17.6481 16.1904C18.7089 16.1954 19.5758 17.0498 19.5758 18.0951C19.5758 19.1506 18.6936 20.01 17.6226 19.9999C16.567 19.9899 15.7051 19.1304 15.7051 18.0851C15.7153 17.0397 16.5925 16.1853 17.6481 16.1904Z" fill="#2A79CC"/>
+                    </svg>
+
+                    <div class="header-bottom__total">221 465 ₽</div>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="breadcrumbs breadcrumbs-product">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Корзина</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="cart-checkout">
+        <div class="container">
+          <div class="cart-checkout__inner">
+            <h1 class="title cart-checkout__title">Оформление заказа</h1>
+            <div class="cart-checkout__autorization">
+              <div class="cart-checkout__user">
+                <div class="cart-checkout__login">
+                  <img src="img/icons/login.svg" alt="user login">
+                </div>
+              </div>
+              <p class="cart-checkout__text"> <a class="cart-checkout__link-autorization" href="#">Авторизуйтесь</a> , чтобы отслеживать статус Вашего заказа, просматривать и повторять прошлые заказы, а также оперативно узнавать о действующих акциях и распродажах.</p>
+            </div>
+            <div class="cart-checkout__info">
+              <div class="cart-checkout__item">
+                <div class="cart-checkout__head">
+                  <img src="img/icon.png" alt="">
+                  <div class="cart-checkout__head-title">Данные получателя</div>
+                </div>
+              </div>
+              
+              
+            </div>
+
+            <div class="tabs-wrapper">
+                <div class="tabs">
+              		<div class="tabs__content">
+                    <button class="tab cart-checkout__tab">Частное лицо</button>
+              		  <button class="tab cart-checkout__tab">Для бизнеса</button>
+                  </div>
+              	</div>
+              	<div class="tabs-content">
+
+
+              		<div class="tab-item">
+                    <div class="cart-checkout__items">
+                      <form class="cart-checkout__form" action="#">
+                      <div class="cart-checkout__box">
+                        <input class="cart-checkout__input" type="text" placeholder="ФИО *">
+                        <input class="cart-checkout__input" type="text" placeholder="Телефон *">
+                        <input class="cart-checkout__input" type="text" placeholder="Электронная почта *">
+                      </div>
+
+                      <label class="category-filter__label cart-checkout__label">
+                        <input class="category-filter__hidden" type="checkbox">
+                        <div class="category-filter__checkbox">
+                          <svg class="category-filter__checkmark" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99977 1.04433C8.00642 1.36721 7.86682 1.6242 7.64414 1.84824C6.73344 2.7477 5.82607 3.65045 4.9187 4.5499C4.54644 4.91891 4.17751 5.28792 3.80193 5.65693C3.33994 6.1116 2.70843 6.11489 2.24976 5.66352C1.60496 5.03093 0.960166 4.39505 0.322015 3.75258C-0.10342 3.32427 -0.106743 2.67521 0.30872 2.26008C0.714212 1.84494 1.37563 1.84494 1.81436 2.26008C1.95063 2.38857 2.08358 2.52036 2.2132 2.65544C2.44586 2.89596 2.46248 3.19907 2.25309 3.45935C2.12014 3.62738 2.11349 3.75588 2.22982 3.8679C2.34947 3.97992 2.50237 3.96344 2.65193 3.81189C3.8252 2.64885 4.99514 1.48912 6.16841 0.329377C6.62708 -0.125293 7.33171 -0.105525 7.74385 0.365619C7.91668 0.560007 7.99977 0.787342 7.99977 1.04433Z" fill="white"/>
+                          </svg>
+                        </div>
+                        Хочу узнавать новости компании
+                      </label>
+                      <label class="category-filter__label cart-checkout__label">
+                        <input class="category-filter__hidden" type="checkbox">
+                        <div class="category-filter__checkbox">
+                          <svg class="category-filter__checkmark" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99977 1.04433C8.00642 1.36721 7.86682 1.6242 7.64414 1.84824C6.73344 2.7477 5.82607 3.65045 4.9187 4.5499C4.54644 4.91891 4.17751 5.28792 3.80193 5.65693C3.33994 6.1116 2.70843 6.11489 2.24976 5.66352C1.60496 5.03093 0.960166 4.39505 0.322015 3.75258C-0.10342 3.32427 -0.106743 2.67521 0.30872 2.26008C0.714212 1.84494 1.37563 1.84494 1.81436 2.26008C1.95063 2.38857 2.08358 2.52036 2.2132 2.65544C2.44586 2.89596 2.46248 3.19907 2.25309 3.45935C2.12014 3.62738 2.11349 3.75588 2.22982 3.8679C2.34947 3.97992 2.50237 3.96344 2.65193 3.81189C3.8252 2.64885 4.99514 1.48912 6.16841 0.329377C6.62708 -0.125293 7.33171 -0.105525 7.74385 0.365619C7.91668 0.560007 7.99977 0.787342 7.99977 1.04433Z" fill="white"/>
+                          </svg>
+                        </div>
+                        Хочу получать персональные предложения и скидки по эл. почте
+                      </label>
+                    </form>
+                    </div>
+
+                    <div class="cart-checkout__items">
+
+                      <div class="cart-checkout__item">
+                        <div class="cart-checkout__head">
+                          <img src="img/icon-2.png" alt="">
+                          <div class="cart-checkout__head-title">Способ доставки</div>
+                        </div>
+                      </div>
+
+                      <div class="cart-checkout__type-payment">
+                        <div class="cart-content__payment cart-checkout__payment">
+                          <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">Доставка</div>
+                              </div>
+
+                              <div class="tovar-info__content">
+                                <div class="tovar-info__price">
+                                  от <div class="tovar-info__number">500</div> ₽
+                                </div>
+                                <a class="tovar-info__more" href="#">Подробнее о доставке</a>
+                            </div>                                            
+                            </span>                      
+                          </label>
+
+                          <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">Самовывоз</div>
+                              </div>
+
+                              <div class="tovar-info__content">
+                                бесплатно
+                            </div>                                            
+                            </span>
+
+                          </label>
+
+                        </div>
+                      </div>
+                      
+                      <form class="cart-checkout__form" action="#">
+                        <div class="cart-checkout__box">
+                           <input class="cart-checkout__input cart-checkout__input--street" type="text" placeholder="Улица *">
+                           <input class="cart-checkout__input cart-checkout__input--flat" type="text" placeholder="Дом / корпус *">
+                           <input class="cart-checkout__input cart-checkout__input--flat" type="text" placeholder="Квартира">
+                        </div>
+                        <textarea class="cart-checkout__textarea" placeholder="Примечание к заказу"></textarea>
+
+                      </form>
+                    </div>
+
+                    <div class="cart-checkout__items">
+
+                      <div class="cart-checkout__item">
+                        <div class="cart-checkout__head">
+                          <img src="img/icon-3.png" alt="">
+                          <div class="cart-checkout__head-title">Способ оплаты:</div>
+                        </div>
+                      </div>
+
+                      <div class="cart-checkout__type-payment">
+                        <div class="cart-content__payment cart-checkout__payment">
+
+                          <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head" style="margin-bottom: 0px;">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">Оплата наличными при получении</div>
+                              </div>                                           
+                            </span>
+
+                          </label>
+
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+
+                  
+
+              		<div class="tab-item">
+
+                    <div class="cart-checkout__items">
+                      <div class="cart-checkout__head">
+                        <img src="img/icon.png" alt="">
+                        <div class="cart-checkout__head-title">Данные получателя</div>
+                    </div>
+                      <form class="cart-checkout__form" action="#">
+                      <div class="cart-checkout__box">
+                        <input class="cart-checkout__input" type="text" placeholder="ФИО *">
+                        <input class="cart-checkout__input" type="text" placeholder="Телефон *">
+                        <input class="cart-checkout__input" type="text" placeholder="Электронная почта *">
+                      </div>
+
+                      <div class="cart-checkout__company-title">Юридические данные</div>
+
+
+                      <label class="category-filter__label cart-checkout__label">
+                        <input class="category-filter__hidden" type="checkbox">
+                        <div class="category-filter__checkbox">
+                          <svg class="category-filter__checkmark" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99977 1.04433C8.00642 1.36721 7.86682 1.6242 7.64414 1.84824C6.73344 2.7477 5.82607 3.65045 4.9187 4.5499C4.54644 4.91891 4.17751 5.28792 3.80193 5.65693C3.33994 6.1116 2.70843 6.11489 2.24976 5.66352C1.60496 5.03093 0.960166 4.39505 0.322015 3.75258C-0.10342 3.32427 -0.106743 2.67521 0.30872 2.26008C0.714212 1.84494 1.37563 1.84494 1.81436 2.26008C1.95063 2.38857 2.08358 2.52036 2.2132 2.65544C2.44586 2.89596 2.46248 3.19907 2.25309 3.45935C2.12014 3.62738 2.11349 3.75588 2.22982 3.8679C2.34947 3.97992 2.50237 3.96344 2.65193 3.81189C3.8252 2.64885 4.99514 1.48912 6.16841 0.329377C6.62708 -0.125293 7.33171 -0.105525 7.74385 0.365619C7.91668 0.560007 7.99977 0.787342 7.99977 1.04433Z" fill="white"/>
+                          </svg>
+                        </div>
+                        Хочу узнавать новости компании
+                      </label>
+                      <label class="category-filter__label cart-checkout__label">
+                        <input class="category-filter__hidden" type="checkbox">
+                        <div class="category-filter__checkbox">
+                          <svg class="category-filter__checkmark" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99977 1.04433C8.00642 1.36721 7.86682 1.6242 7.64414 1.84824C6.73344 2.7477 5.82607 3.65045 4.9187 4.5499C4.54644 4.91891 4.17751 5.28792 3.80193 5.65693C3.33994 6.1116 2.70843 6.11489 2.24976 5.66352C1.60496 5.03093 0.960166 4.39505 0.322015 3.75258C-0.10342 3.32427 -0.106743 2.67521 0.30872 2.26008C0.714212 1.84494 1.37563 1.84494 1.81436 2.26008C1.95063 2.38857 2.08358 2.52036 2.2132 2.65544C2.44586 2.89596 2.46248 3.19907 2.25309 3.45935C2.12014 3.62738 2.11349 3.75588 2.22982 3.8679C2.34947 3.97992 2.50237 3.96344 2.65193 3.81189C3.8252 2.64885 4.99514 1.48912 6.16841 0.329377C6.62708 -0.125293 7.33171 -0.105525 7.74385 0.365619C7.91668 0.560007 7.99977 0.787342 7.99977 1.04433Z" fill="white"/>
+                          </svg>
+                        </div>
+                        Хочу получать персональные предложения и скидки по эл. почте
+                      </label>
+                    </form>
+                    </div>
+
+                    <div class="cart-checkout__items">
+
+                      <div class="cart-checkout__item">
+                        <div class="cart-checkout__head">
+                          <img src="img/icon-2.png" alt="">
+                          <div class="cart-checkout__head-title">Способ доставки</div>
+                        </div>
+                      </div>
+
+                      <div class="cart-checkout__type-payment">
+                        <div class="cart-content__payment cart-checkout__payment cart-checkout__delivery">
+
+                         <div class="cart-checkout__delivery-type">
+                           <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">Доставка</div>
+                              </div>
+
+                              <div class="tovar-info__content">
+                                <div class="tovar-info__price">
+                                  от <div class="tovar-info__number">500</div> ₽
+                                </div>
+                                <a class="tovar-info__more" href="#">Подробнее о доставке</a>
+                            </div>                                            
+                            </span>                      
+                          </label>
+
+                          <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">Самовывоз</div>
+                              </div>
+
+                              <div class="tovar-info__content">
+                                бесплатно
+                            </div>                                            
+                            </span>
+
+                          </label>
+                         </div>
+
+                         <div class="cart-checkout__map">
+
+                          <div class="cart-checkout__map-title">Выберите пункт самовывоза</div>
+
+                           <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head" style="margin-bottom: 0px;">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">г. Казань, ул. Техническая, д. 10, к. 2</div>
+                              </div>                                           
+                            </span>
+
+                          </label>
+
+                          <label class="tovar-info__label">                      
+                            <input class="tovar-info__checkbox" type="radio" name="test" style="display:none"/>
+                            <span class="tovar-info__span">
+                              <div class="tovar-info__head" style="margin-bottom: 0px;">
+                                <div class="tovar-info__round"></div> 
+                                <div class="">г. Набережные Челны, ул. Магистральная, д. 51а</div>
+                              </div>                                           
+                            </span>
+
+                          </label>
+
+                         </div>
+                          
+
+
+                          
+
+                          <textarea class="cart-checkout__textarea" placeholder="Примечание к заказу"></textarea>
+
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+              	</div>
+            </div>
+
+            <div class="cart__total cart-checkout__total">
+              <div class="cart__price">
+                <span class="cart__span">4 товара на сумму</span>
+                <div class="cart__price-new">
+                  5 465 
+                  <span>₽</span>
+                </div>
+              </div>
+              <button class="cart__btn">Оформить заказ</button>
+              <p class="cart-checkout__text">Нажимая на кнопку, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии <a class="cart-checkout__link-autorization" href="#">с условиями пользовательского соглашения</a>, а также <a class="cart-checkout__link-autorization" href="#">с условиями продажи</a> .</p>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__inner">
+            <a class="footer-top__logo" href="#">
+              <img src="img/icons/logo.svg" alt="logo">
+            </a>
+            <div class="footer-top__item">
+              <ul class="footer-top__list">
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Каталог</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Доставка</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Оплата</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Прайс-лист</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Оптовикам</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Вакансии</a></li>
+                <li class="footer-top__items"><a class="footer-top__link" href="#">Контакты</a></li>
+              </ul>
+              <div class="footer-top__addres">
+                <div class="footer-top__addres-item">ООО «ЭПК»</div>
+                <div class="footer-top__addres-item">420054, Республика Татарстан</div>
+                <div class="footer-top__addres-item">г. Казань, ул. Техническая, д. 10, к. 2</div>
+              </div>
+            </div>
+            <div class="footer-top__item footer-top__item--newsletter">
+              <div class="footer-top__newsletter">Подпишитесь на рассылку новостей, акций, спецпредложений</div>
+              <form class="footer-top__form" action="#">
+                <label class="footer-top__label" for="#">
+                  <input class="footer-top__input" type="text" placeholder="Электронная почта">
+                  <button class="footer-top__button">Подписаться</button>
+                </label>
+              </form>
+              <div class="footer-top__contacts">
+                <div class="footer-top__contact">+7 8552 44-84-09</div>
+                <div class="footer-top__contact footer-top__contact--mail">sale@everest-rt.ru</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom__title">ПАО Сбербанк, Расч/счет 40702810162000033064, Корр/счет 30101810600000000603, БИК 049205603, ОГРН 1121674004143</div>
+          <div class="footer-bottom__text">Указанная стоимость товаров и условия их приобретения действительны по состоянию на текущую дату.</div>
+          <div class="footer-bottom__text">Продолжая работу с сайтом, вы даете согласие на использование сайтом cookies и обработку персональных данных в целях функционирования сайта, проведения ретаргетинга, статистических исследований, улучшения сервиса и предоставления релевантной рекламной информации на основе ваших предпочтений и интересов.</div>
+          <div class="footer-bottom__info">
+            <div class="footer-bottom__menu">
+              <ul class="footer-bottom__list">
+                <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Персональные данные</a></li>
+                <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Условия пользовательского соглашения</a></li>
+                <li class="footer-bottom__item"><a class="footer-bottom__link" href="#">Условия продажи</a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom__development">
+              Разработка сайта
+              <a class="footer-bottom__dev" href="#">
+                <img src="img/icons/dev.svg" alt="dev">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      $('.tabs-wrapper').each(function() {
+	let ths = $(this);
+	ths.find('.tab-item').not(':first').hide();
+	ths.find('.tab').click(function() {
+		ths.find('.tab').removeClass('active').eq($(this).index()).addClass('active');
+		ths.find('.tab-item').hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass('active');
+});
+    </script>
+  </body>
+</html>
