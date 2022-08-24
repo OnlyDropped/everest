@@ -2278,6 +2278,83 @@
     }
   }
 }
+.company-details {
+  &__inner {
+    padding: 80px 0;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__content {
+    width: 648px;
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #d8e1ea;
+    padding: 17px 0 32px;
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878c9e;
+  }
+  &__subtitle {
+    width: 200px;
+  }
+  &__text {
+    width: 424px;
+    margin-left: auto;
+    color: #0e192e;
+  }
+  &__download {
+    width: 280px;
+    background: #e8eff5;
+    border-radius: 4px;
+    margin-left: auto;
+    padding: 24px;
+  }
+  &__map-partners {
+    margin: 63px 0 4px;
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e192e;
+  }
+  &__size {
+    @extend %IBMPlexSans-Regular-400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #878c9e;
+  }
+  .jq-file {
+    //background-color: darkgreen;
+    width: 60px;
+    border-radius: 0;
+    box-shadow: none;
+    &__name {
+      //background-image: url("../img/icons/file.svg");
+      //background: url("../img/icons/file.svg") center center no-repeat violet;
+      background: url("../img/icons/file.svg") center center no-repeat;
+      border: none;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+      height: 54px;
+    }
+    &__browse {
+      display: none;
+    }
+  }
+}
 .partners {
   &__inner {
     padding: 80px 0;
@@ -2298,6 +2375,36 @@
     border-radius: 4px;
     display: grid;
     place-items: center;
+  }
+}
+.favorite {
+  &__inner {
+    padding: 34px 0 134px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+  &__title {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  &__delete {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    @extend %Onest-Regular-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878c9e;
+    svg {
+      margin-right: 15px;
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
   }
 }
 .footer {

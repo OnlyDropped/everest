@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.theme.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -166,143 +164,158 @@
           </div>
         </div>
       </section>
-      <section class="phone">
-        <div class="container">
-          <div class="phone__inner">
-            <h1 class="title phone__title">Контакты</h1>
-            <div class="phone__wrapper">
-              <div class="phone__head">
-                <p class="phone__text">Многоканальный телефон</p>
-                <button class="phone__feedback">Обратный звонок</button>
-              </div>
-              <a class="phone__tel" href="#">+7 843 233-44-22</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contacts">
-        <div class="container">
-          <div class="contacts__inner">
-            <div class="contacts__info">
-              <div class="contacts__item">
-                <img class="contacts__img" src="img/map-1.png" alt="map">
-                <div class="contacts__title">Офис и склад в Казани</div>
-                <div class="contacts__subtitle">Телефон:</div>
-                <a class="contacts__tel" href="#">+7 843 233-44-22</a>
-                <div class="contacts__subtitle">Адрес:</div>
-                <div class="contacts__addres">г. Казань, ул. Техническая, 10/2</div>
-                <div class="contacts__time">
-                  <img src="img/icons/time.svg" alt="time">
-                  Пн-пт: 8:00—17:00; Сб: 8:00—11:00</div>
-                  <button class="contacts__btn">
-                    <img src="img/icons/geo.svg" alt="geo">
-                    Посмотреть на карте
-                  </button>
-              </div>
 
-              <div class="contacts__item">
-                <img class="contacts__img" src="img/map-2.png" alt="map">
-                <div class="contacts__title">Офис и склад в Набережных Челнах</div>
-                <div class="contacts__subtitle">Телефон:</div>
-                <a class="contacts__tel" href="#">+7 843 233-44-22</a>
-                <div class="contacts__subtitle">Адрес:</div>
-                <div class="contacts__addres">г. Набережные Челны, ул. Магистральная, 51а</div>
-                <div class="contacts__time">
-                  <img src="img/icons/time.svg" alt="time">
-                  Пн-пт: 8:00—17:00; Сб: 8:00—11:00</div>
-                  <button class="contacts__btn">
-                    <img src="img/icons/geo.svg" alt="geo">
-                    Посмотреть на карте
-                  </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="company-details">
+      <section class="favorite">
         <div class="container">
-          <div class="company-details__inner">
-            <div class="company-details__wrapper">
-              <div class="company-details__content">
-                <h2 class="title company-details__title">Реквизиты компании</h2>
-                <div class="company-details__item">
-                  <div class="company-details__subtitle">Наименование:</div>
-                  <div class="company-details__text">ООО «ЭПК»</div>
-                </div>
-                <div class="company-details__item">
-                  <div class="company-details__subtitle">ИНН:</div>
-                  <div class="company-details__text">1639047491</div>
-                </div>
-                <div class="company-details__item">
-                  <div class="company-details__subtitle">КПП:</div>
-                  <div class="company-details__text">163901001</div>
-                </div>
-                <div class="company-details__item">
-                  <div class="company-details__subtitle">Юридический адрес:</div>
-                  <div class="company-details__text">423874, Республика Татарстан, Тукаевский р-он, с. Тлянче-тамак, ул. Школьная, д. 44</div>
-                </div>
-                <div class="company-details__item">
-                  <div class="company-details__subtitle">ОГРН:</div>
-                  <div class="company-details__text">1121674004143</div>
+          <div class="favorite__inner">
+            <div class="favorite__top">
+              <h1 class="title favorite__title">Избранное</h1>
+              <button class="favorite__delete">
+                <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 5V18C2 18.5304 2.21071 19.0391 2.58579 19.4142C2.96086 19.7893 3.46957 20 4 20H14C14.5304 20 15.0391 19.7893 15.4142 19.4142C15.7893 19.0391 16 18.5304 16 18V5H2ZM7 17H5V8H7V17ZM13 17H11V8H13V17ZM13.618 2L12 0H6L4.382 2H0V4H18V2H13.618Z" fill="#C2CBD3"/>
+</svg>
+
+                Удалить все
+              </button>
+            </div>
+            <div class="favorite__content">
+              <div class="favorite__item">
+                <div class="category-content__item">
+                    <div class="category-content__functional">
+                      <button class="category-content__compare">
+                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="10" width="3" height="12" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="15" y="6" width="3" height="16" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="5" width="3" height="22" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="10" y="14" width="3" height="8" rx="1.5" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                      <button class="category-content__favorite">
+                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M21 5.43513C20.9719 6.8678 20.5224 8.13647 19.5392 9.15912C16.8283 11.9811 14.1034 14.7885 11.3785 17.6008C10.8588 18.1363 10.1471 18.1314 9.6274 17.596C6.93057 14.803 4.215 12.0293 1.54158 9.21218C0.0807906 7.66856 -0.359318 5.79691 0.296163 3.74196C0.961008 1.66772 2.40775 0.447288 4.49124 0.0806774C6.9493 -0.348643 9.38862 1.19498 10.222 3.65513C10.2267 3.66478 10.2267 3.66961 10.2267 3.67925C10.2735 3.82397 10.3157 3.97833 10.5123 3.97351C10.6949 3.96868 10.737 3.82397 10.7792 3.68408C10.9899 3.03768 11.2942 2.43953 11.7343 1.93303C13.1764 0.27363 14.9789 -0.363115 17.0718 0.201273C19.1834 0.770485 20.4522 2.24658 20.9064 4.45107C20.9719 4.77426 21 5.10228 21 5.43513Z" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <img class="category-content__img" src="img/category/1.png" alt="">
+                    <div class="category-content__title">Dulux MASTER 30 BC 2,3 л. краска алк. полуматовая б/цв</div>
+                    <div class="category-content__buy">
+                      <div class="category-content__price">
+                        <div class="category-content__price-old">3 512 ₽/шт</div>
+                        <div class="category-content__price-new">
+                          3 088
+                          <span class="category-content__span">₽/шт</span>
+                        </div>
+                      </div>
+                      <button class="category-content__cart">
+                        <img src="img/icons/cart-2.svg" alt="cart">
+                      </button>
+                    </div>
                 </div>
               </div>
-              <div class="company-details__download">
-                <form class="company-details__form" action="#">
-                  <input class="company-details__file" type="file" data-placeholder="" data-browse="" >
-                </form>
-                <div class="company-details__map-partners">Карта партнера</div>
-                <div class="company-details__size">PDF, 212 КБ</div>
+              <div class="favorite__item">
+                <div class="category-content__item">
+                    <div class="category-content__functional">
+                      <button class="category-content__compare">
+                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="10" width="3" height="12" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="15" y="6" width="3" height="16" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="5" width="3" height="22" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="10" y="14" width="3" height="8" rx="1.5" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                      <button class="category-content__favorite">
+                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M21 5.43513C20.9719 6.8678 20.5224 8.13647 19.5392 9.15912C16.8283 11.9811 14.1034 14.7885 11.3785 17.6008C10.8588 18.1363 10.1471 18.1314 9.6274 17.596C6.93057 14.803 4.215 12.0293 1.54158 9.21218C0.0807906 7.66856 -0.359318 5.79691 0.296163 3.74196C0.961008 1.66772 2.40775 0.447288 4.49124 0.0806774C6.9493 -0.348643 9.38862 1.19498 10.222 3.65513C10.2267 3.66478 10.2267 3.66961 10.2267 3.67925C10.2735 3.82397 10.3157 3.97833 10.5123 3.97351C10.6949 3.96868 10.737 3.82397 10.7792 3.68408C10.9899 3.03768 11.2942 2.43953 11.7343 1.93303C13.1764 0.27363 14.9789 -0.363115 17.0718 0.201273C19.1834 0.770485 20.4522 2.24658 20.9064 4.45107C20.9719 4.77426 21 5.10228 21 5.43513Z" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <img class="category-content__img" src="img/category/1.png" alt="">
+                    <div class="category-content__title">Dulux MASTER 30 BC 2,3 л. краска алк. полуматовая б/цв</div>
+                    <div class="category-content__buy">
+                      <div class="category-content__price">
+                        <div class="category-content__price-old">3 512 ₽/шт</div>
+                        <div class="category-content__price-new">
+                          3 088
+                          <span class="category-content__span">₽/шт</span>
+                        </div>
+                      </div>
+                      <button class="category-content__cart">
+                        <img src="img/icons/cart-2.svg" alt="cart">
+                      </button>
+                    </div>
+                </div>
+              </div>
+              <div class="favorite__item">
+                <div class="category-content__item">
+                    <div class="category-content__functional">
+                      <button class="category-content__compare">
+                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="10" width="3" height="12" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="15" y="6" width="3" height="16" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="5" width="3" height="22" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="10" y="14" width="3" height="8" rx="1.5" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                      <button class="category-content__favorite">
+                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M21 5.43513C20.9719 6.8678 20.5224 8.13647 19.5392 9.15912C16.8283 11.9811 14.1034 14.7885 11.3785 17.6008C10.8588 18.1363 10.1471 18.1314 9.6274 17.596C6.93057 14.803 4.215 12.0293 1.54158 9.21218C0.0807906 7.66856 -0.359318 5.79691 0.296163 3.74196C0.961008 1.66772 2.40775 0.447288 4.49124 0.0806774C6.9493 -0.348643 9.38862 1.19498 10.222 3.65513C10.2267 3.66478 10.2267 3.66961 10.2267 3.67925C10.2735 3.82397 10.3157 3.97833 10.5123 3.97351C10.6949 3.96868 10.737 3.82397 10.7792 3.68408C10.9899 3.03768 11.2942 2.43953 11.7343 1.93303C13.1764 0.27363 14.9789 -0.363115 17.0718 0.201273C19.1834 0.770485 20.4522 2.24658 20.9064 4.45107C20.9719 4.77426 21 5.10228 21 5.43513Z" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <img class="category-content__img" src="img/category/1.png" alt="">
+                    <div class="category-content__title">Dulux MASTER 30 BC 2,3 л. краска алк. полуматовая б/цв</div>
+                    <div class="category-content__buy">
+                      <div class="category-content__price">
+                        <div class="category-content__price-old">3 512 ₽/шт</div>
+                        <div class="category-content__price-new">
+                          3 088
+                          <span class="category-content__span">₽/шт</span>
+                        </div>
+                      </div>
+                      <button class="category-content__cart">
+                        <img src="img/icons/cart-2.svg" alt="cart">
+                      </button>
+                    </div>
+                </div>
+              </div>
+              <div class="favorite__item">
+                <div class="category-content__item">
+                    <div class="category-content__functional">
+                      <button class="category-content__compare">
+                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="10" width="3" height="12" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="15" y="6" width="3" height="16" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="5" width="3" height="22" rx="1.5" fill="#C2CBD3"/>
+                          <rect x="10" y="14" width="3" height="8" rx="1.5" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                      <button class="category-content__favorite">
+                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M21 5.43513C20.9719 6.8678 20.5224 8.13647 19.5392 9.15912C16.8283 11.9811 14.1034 14.7885 11.3785 17.6008C10.8588 18.1363 10.1471 18.1314 9.6274 17.596C6.93057 14.803 4.215 12.0293 1.54158 9.21218C0.0807906 7.66856 -0.359318 5.79691 0.296163 3.74196C0.961008 1.66772 2.40775 0.447288 4.49124 0.0806774C6.9493 -0.348643 9.38862 1.19498 10.222 3.65513C10.2267 3.66478 10.2267 3.66961 10.2267 3.67925C10.2735 3.82397 10.3157 3.97833 10.5123 3.97351C10.6949 3.96868 10.737 3.82397 10.7792 3.68408C10.9899 3.03768 11.2942 2.43953 11.7343 1.93303C13.1764 0.27363 14.9789 -0.363115 17.0718 0.201273C19.1834 0.770485 20.4522 2.24658 20.9064 4.45107C20.9719 4.77426 21 5.10228 21 5.43513Z" fill="#C2CBD3"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <img class="category-content__img" src="img/category/1.png" alt="">
+                    <div class="category-content__title">Dulux MASTER 30 BC 2,3 л. краска алк. полуматовая б/цв</div>
+                    <div class="category-content__buy">
+                      <div class="category-content__price">
+                        <div class="category-content__price-old">3 512 ₽/шт</div>
+                        <div class="category-content__price-new">
+                          3 088
+                          <span class="category-content__span">₽/шт</span>
+                        </div>
+                      </div>
+                      <button class="category-content__cart">
+                        <img src="img/icons/cart-2.svg" alt="cart">
+                      </button>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="partners">
-        <div class="container">
-          <div class="partners__inner">
-            <h3 class="title partners__title">Партнеры</h3>
-            <div class="partners__wrapper">
-              <div class="partners__item">
-                <img src="img/partners/1.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/2.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/3.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/4.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/5.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/6.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/7.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/8.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/9.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/10.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/11.png" alt="">
-              </div>
-              <div class="partners__item">
-                <img src="img/partners/12.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
+
     </main>
 
     <footer class="footer">
@@ -366,10 +379,6 @@
       </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
     <script src="js/app.js"></script>
-    <script>
-      $('.company-details__file').styler({})
-    </script>
   </body>
 </html>

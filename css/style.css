@@ -39,28 +39,28 @@
 }
 
 a, input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input:-ms-input-placeholder,
-textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::-ms-input-placeholder,
-textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::placeholder,
-textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -84,7 +84,7 @@ textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .c
   font-style: normal;
 }
 
-.lk-orders-item__list .lk-orders-item__items {
+.lk-orders-item__list .lk-orders-item__items, .company-details__size {
   font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -3198,6 +3198,100 @@ path:hover{
   margin-right: 8px;
 }
 
+.company-details__inner {
+  padding: 80px 0;
+}
+
+.company-details__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.company-details__content {
+  width: 648px;
+}
+
+.company-details__title {
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.company-details__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border-top: 1px solid #d8e1ea;
+  padding: 17px 0 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #878c9e;
+}
+
+.company-details__subtitle {
+  width: 200px;
+}
+
+.company-details__text {
+  width: 424px;
+  margin-left: auto;
+  color: #0e192e;
+}
+
+.company-details__download {
+  width: 280px;
+  background: #e8eff5;
+  border-radius: 4px;
+  margin-left: auto;
+  padding: 24px;
+}
+
+.company-details__map-partners {
+  margin: 63px 0 4px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+}
+
+.company-details__size {
+  font-size: 14px;
+  line-height: 21px;
+  color: #878c9e;
+}
+
+.company-details .jq-file {
+  width: 60px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.company-details .jq-file__name {
+  background: url("../img/icons/file.svg") center center no-repeat;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 54px;
+}
+
+.company-details .jq-file__browse {
+  display: none;
+}
+
 .partners__inner {
   padding: 80px 0;
 }
@@ -3223,6 +3317,51 @@ path:hover{
   display: -ms-grid;
   display: grid;
   place-items: center;
+}
+
+.favorite__inner {
+  padding: 34px 0 134px;
+}
+
+.favorite__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+
+.favorite__title {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.favorite__delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #878c9e;
+}
+
+.favorite__delete svg {
+  margin-right: 15px;
+}
+
+.favorite__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer {
