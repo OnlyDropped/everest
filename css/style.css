@@ -39,28 +39,32 @@
 }
 
 a, input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-webkit-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .news-item__item, .news-item__text, .news-item__blockquote, .news-item__right-side .news-item__info, .news-item__right-side .news-item__text, .news-item__bottom .news-item__views,
+.news-item__bottom .news-item__date, .page-404__subtitle, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input:-ms-input-placeholder,
-textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea:-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .news-item__item, .news-item__text, .news-item__blockquote, .news-item__right-side .news-item__info, .news-item__right-side .news-item__text, .news-item__bottom .news-item__views,
+.news-item__bottom .news-item__date, .page-404__subtitle, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::-ms-input-placeholder,
-textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::-ms-input-placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .news-item__item, .news-item__text, .news-item__blockquote, .news-item__right-side .news-item__info, .news-item__right-side .news-item__text, .news-item__bottom .news-item__views,
+.news-item__bottom .news-item__date, .page-404__subtitle, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a, input::placeholder,
-textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
+textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .category-filter__title, .category-filter__label, .category-filter__price-from, .category-filter__price-to, .category-content__title, .category-content__price-old, .category-content__span, .category-content__sort-title, .category-content__view, .seo-category__item, .product-info__code, .product-info__favorite, .product-info__compare, .product-info__item, .product-info__btn, .product-info__price-old, .product-info__price-new span, .product-info__discount, .product-info__box-price, .tabs-main__span, .tabs-main__text, .tabs-main__items, .tabs-main__questions-text, .tabs-main__date, .tabs-main__descriptions, .tabs-main__like, .tabs-main__dislike, .tabs-main__comment, .cart__delete, .cart__info-title, .cart__code, .cart .jq-number__field input, .cart__span, .cart__price-new span, .cart-checkout__text, .cart-content__payment .tovar-info__span, .cart-content__payment .tovar-info__price, .lk-main__button, .lk-main__label-title, .lk-orders-item__items-title, .lk-orders-item__code, .lk-orders-item__num, .lk-orders-item__qty, .lk-orders-item__new-price span, .intro__text, .delivery-content__item, .delivery-content__span, .payment__span, .phone__text, .phone__feedback, .contacts__subtitle, .contacts__tel, .contacts__addres, .contacts__time, .company-details__item, .company-details__map-partners, .favorite__delete, .news-item__item, .news-item__text, .news-item__blockquote, .news-item__right-side .news-item__info, .news-item__right-side .news-item__text, .news-item__bottom .news-item__views,
+.news-item__bottom .news-item__date, .page-404__subtitle, .footer-top__addres-item, .footer-top__newsletter, .footer-bottom__title, .footer-bottom__text, .footer-bottom__development {
   font-family: "Onest-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -72,13 +76,13 @@ textarea::placeholder, .header-bottom__total, .news__info, .news__card-title, .c
   font-style: normal;
 }
 
-.category-filter__item-title, .product-info__title, .product-info__order, .product-info__add-cart, .tabs-main__questions-btn, .tabs-main__author, .tabs-main__admin, .cart__btn, .lk-main__save, .lk-main__change, .delivery-content__btn, .price-list__btn, .contacts__btn {
+.category-filter__item-title, .product-info__title, .product-info__order, .product-info__add-cart, .tabs-main__questions-btn, .tabs-main__author, .tabs-main__admin, .cart__btn, .lk-main__save, .lk-main__change, .delivery-content__btn, .price-list__btn, .contacts__btn, .page-404__btn {
   font-family: "Onest-Bold", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.title, .header-menu__btn, .header-bottom__menu, .header-bottom__search, .main-slider__title, .main-slider__more, .catalog__title, .news__tag, .catalog-main__title, .category-content__price-new, .seo-category__title, .seo-category__info-title, .product-info__price-new, .tabs-main__tab, .tabs-main__title, .tabs-main__techs-title, .tabs-main__questions-title, .cart__price-new, .cart-checkout__link-autorization, .cart-checkout__tab, .cart-checkout__head-title, .cart-checkout__map-title, .cart-content__payment .tovar-info__content, .cart-content__payment .tovar-info__number, .lk-main__info-title, .lk-orders-item__new-price, .intro__btn, .delivery-content__text, .payment__items-title, .payment__item, .phone__tel, .contacts__title, .footer-top__link, .footer-top__button, .footer-top__contact, .footer-bottom__link {
+.title, .header-menu__btn, .header-bottom__menu, .header-bottom__search, .main-slider__title, .main-slider__more, .catalog__title, .news__tag, .catalog-main__title, .category-content__price-new, .seo-category__title, .seo-category__info-title, .product-info__price-new, .tabs-main__tab, .tabs-main__title, .tabs-main__techs-title, .tabs-main__questions-title, .cart__price-new, .cart-checkout__link-autorization, .cart-checkout__tab, .cart-checkout__head-title, .cart-checkout__map-title, .cart-content__payment .tovar-info__content, .cart-content__payment .tovar-info__number, .lk-main__info-title, .lk-orders-item__new-price, .intro__btn, .delivery-content__text, .payment__items-title, .payment__item, .phone__tel, .contacts__title, .news-item__description-title, .news-item__h3, .news-item__h4, .news-item__h5, .news-item__h6, .news-item__view, .news-item__tag, .page-404__error, .footer-top__link, .footer-top__button, .footer-top__contact, .footer-bottom__link {
   font-family: "Onest-ExtraBold", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -3356,6 +3360,338 @@ path:hover{
 }
 
 .favorite__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-cart__inner {
+  padding: 34px 0 60px;
+}
+
+.news-cart__title {
+  text-transform: uppercase;
+}
+
+.news-cart__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 120px;
+}
+
+.news-pagination__inner {
+  padding-top: 60px;
+}
+
+.news-pagination .catalog-pagination {
+  padding-top: 0;
+}
+
+.news-item__title {
+  text-transform: uppercase;
+}
+
+.news-item__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 100px;
+}
+
+.news-item__info {
+  width: 872px;
+}
+
+.news-item__img {
+  width: 872px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 4px;
+}
+
+.news-item__description {
+  margin: 100px 0;
+}
+
+.news-item__description-title {
+  font-size: 36px;
+  line-height: 40px;
+  color: #0e192e;
+  margin-bottom: 24px;
+}
+
+.news-item__item + .news-item__item {
+  margin-top: 16px;
+}
+
+.news-item__item {
+  padding-left: 32px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0e192e;
+  position: relative;
+}
+
+.news-item__item::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icons/slash.svg");
+  background-size: cover;
+  width: 15px;
+  height: 16px;
+  left: 0;
+  top: 0px;
+}
+
+.news-item__items + .news-item__items {
+  margin-top: 80px;
+}
+
+.news-item__h3, .news-item__h4, .news-item__h5, .news-item__h6 {
+  text-transform: uppercase;
+  color: #0e192e;
+  margin-bottom: 16px;
+}
+
+.news-item__h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.news-item__h4 {
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.news-item__h5 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.news-item__h6 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.news-item__text + .news-item__text {
+  margin-top: 30px;
+}
+
+.news-item__text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #0e192e;
+}
+
+.news-item__blockquote {
+  font-size: 21px;
+  line-height: 30px;
+  color: #878c9e;
+  padding-left: 77px;
+  margin: 48px 0 58px;
+  position: relative;
+}
+
+.news-item__blockquote::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icons/slash.svg");
+  background-size: cover;
+  width: 52px;
+  height: 65px;
+  left: 0;
+  top: 0px;
+}
+
+.news-item__right-side {
+  width: 312px;
+  border: 1px solid #d8e1ea;
+  border-radius: 4px;
+  margin-left: auto;
+  padding: 32px;
+}
+
+.news-item__right-side .news-item__item + .news-item__item {
+  margin-top: 24px;
+}
+
+.news-item__right-side .news-item__item {
+  padding-left: 0;
+}
+
+.news-item__right-side .news-item__item::before {
+  display: none;
+}
+
+.news-item__right-side .news-item__info {
+  width: 248px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #878c9e;
+}
+
+.news-item__right-side .news-item__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e192e;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.news-item__view {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #0e192e;
+  margin-bottom: 24px;
+}
+
+.news-item__views {
+  margin-left: 24px;
+}
+
+.news-item__views svg {
+  margin-right: 8px;
+}
+
+.news-item__inner {
+  padding: 34px 0 110px;
+}
+
+.news-item__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #d8e1ea;
+  padding-top: 24px;
+}
+
+.news-item__bottom .news-item__views,
+.news-item__bottom .news-item__date {
+  font-size: 14px;
+  line-height: 21px;
+  color: #878c9e;
+}
+
+.news-item__bottom .news-item__views {
+  margin-left: 24px;
+}
+
+.news-item__tags {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-item__tag + .news-item__tag {
+  margin-left: 24px;
+}
+
+.news-item__tag {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2a79cc;
+}
+
+.page-404__inner {
+  padding: 34px 0 50px;
+}
+
+.page-404__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #0e192e;
+}
+
+.page-404__error {
+  width: 677px;
+  padding-left: 52px;
+  font-size: 325px;
+  line-height: 325px;
+  position: relative;
+}
+
+.page-404__error::before {
+  position: absolute;
+  content: "";
+  width: 52px;
+  height: 65px;
+  left: 0;
+  top: 0px;
+  background-image: url("../img/icons/slash.svg");
+}
+
+.page-404__subtitle {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 23px;
+}
+
+.page-404__btn {
+  padding: 14px 24px 13px;
+  background: #2a79cc;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.buy-now__inner {
+  padding: 50px 0 80px;
+}
+
+.buy-now__wrapper {
+  padding: 100px 0 80px;
+  border-top: 1px solid #D8E1EA;
+}
+
+.buy-now__title {
+  text-transform: uppercase;
+}
+
+.buy-now__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
