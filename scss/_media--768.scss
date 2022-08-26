@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .header {
+    /*
+    background: skyblue;
+    */
+    .header-menu {
+      top: 226px;
+    }
+  }
+  .header-bottom {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    &__form {
+      max-width: 100%;
+    }
+    &__fuctional {
+      order: -1;
+    }
+    &__menu {
+      order: -1;
+    }
+  }/*
+  .footer {
+    background: seagreen;
+  }*/
+  .footer-top {
+    &__logo {
+      img {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+      }
+    }
+    &__item--newsletter {
+      width: 350px;
+    }
+    &__list {
+      text-align: center;
+    }
+    &__addres{
+      text-align: center;
+    }
+    &__contact {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+}
