@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
-/*  .header {
+  .header {
     background: tomato;
-  }*/
+  }
   .header {
     &__logo {
       margin-right: 20px;
@@ -22,7 +22,7 @@
       bottom: 0;
       background: cornflowerblue;
       background-color: rgba(#fff, 0.9);
-      z-index: 2;
+      z-index: 25;
       height: 100vh;
       display: flex;
       flex-direction: column;
@@ -48,7 +48,7 @@
     &__hamburger {
       display: block;
       margin-left: auto;
-      z-index: 2;
+      z-index: 26;
       transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     &__hamburger--active {
@@ -82,7 +82,7 @@
     &__inner {
       padding: 70px 0px;
     }
-    &__content{
+    &__content {
       flex-wrap: wrap;
       row-gap: 15px;
     }
@@ -102,10 +102,46 @@
     &__item {
       min-height: 425px;
     }
-  }/*
+  }
+
+  .breadcrumbs {
+    &__inner {
+      padding: 28px 0;
+    }
+  }
+  .catalog-main {
+    &__inner {
+      padding: 25px 0px;
+    }
+    &__wrapper {
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 5px;
+    }
+    &__item {
+      width: 320px;
+      padding: 65px 30px 30px;
+    }
+  }
+  .category {
+    &__inner {
+      padding: 30px 0px;
+    }
+  }
+  .catalog-pagination {
+    padding: 15px 0px;
+  }
+  .seo-category {
+    padding-bottom: 60px;
+    &__inner {
+      padding: 45px 0;
+    }
+    &__title {
+      padding-left: 20px;
+    }
+  }
   .footer {
     background: darkkhaki;
-  }*/
+  }
   .footer-top {
     &__inner {
       padding: 60px 0 60px;

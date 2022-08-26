@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
-  .header {/*
-    background: skyblue;*/
+  .header {
+    background: skyblue;
     .header-menu {
       top: 226px;
     }
@@ -65,10 +65,74 @@
     &__inner {
       padding: 45px 0px;
     }
-  }/*
+  }
+  .catalog-main {
+    &__inner {
+      padding-top: 15px;
+    }
+    &__wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__item {
+      width: 340px;
+      min-height: 290px;
+      padding: 30px 20px;
+    }
+    &__img {
+      margin: 0 auto;
+    }
+  }
+  .category-content {
+    &__filter-sort {
+      display: block;
+      margin-right: 20px;
+    }
+    &__items {
+      padding: 25px 0 20px;
+      row-gap: 15px;
+    }
+  }
+  .category {
+    &__wrapper {
+      position: relative;
+      .category-filter {
+        position: absolute;
+      }
+    }
+  }
+  .category-filter {
+    display: block;
+    position: absolute;
+    z-index: 25;
+    transform: translateX(-120%);
+    //border: 1px solid rgba(#000, .6);
+    background: violet;
+    padding: 15px 5px;
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    top: 55px;
+  }
+  .category-filter--active {
+    transform: translateX(0%);
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .seo-category {
+    &__inner {
+      padding: 40px 0;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 36px;
+    }
+    &__info {
+      padding-right: 15px;
+    }
+    &__info-title {
+      margin: 45px 0 15px;
+    }
+  }
   .footer {
     background: seagreen;
-  }*/
+  }
   .footer-top {
     &__logo {
       img {
@@ -89,6 +153,7 @@
     &__contact {
       font-size: 26px;
       line-height: 30px;
+      text-align: right;
     }
   }
 }

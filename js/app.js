@@ -11,6 +11,11 @@ $('.header-top__hamburger').on('click', function name(params) {
   $('.header-top__hamburger').toggleClass('header-top__hamburger--active');
 })
 
+
+$('.category-content__filter-sort').on('click', function name(params) {
+  $('.category-filter').toggleClass('category-filter--active');
+})
+
 const btn = document.querySelector('.header-bottom__menu');
 const js_menu = document.querySelector('.header-menu');
 
