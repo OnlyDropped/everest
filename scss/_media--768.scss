@@ -130,6 +130,71 @@
       margin: 45px 0 15px;
     }
   }
+  .product {
+    .title {
+      font-size: 32px;
+      line-height: 42px;
+    }
+  }
+  .product-info {
+    &__main {
+      row-gap: 25px;
+    }
+    &__main-card {
+      border: 1px solid #d8e1ea;
+    }
+  }
+  .tabs-main {
+    &__tab {
+      padding-bottom: 15px;
+    }
+    &__content {
+      padding-top: 30px;
+    }
+    &__title {
+      font-size: 34px;
+      line-height: 38px;
+      margin-bottom: 25px;
+    }
+    &__questions {
+      padding: 15px;
+    }
+    &__questions-title {
+      font-size: 16px;
+      margin: 20px 0 8px;
+    }
+    &__questions-text {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 25px;
+    }
+    &__questions-btn {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &__info {
+      max-width: 480px;
+      width: 100%;
+    }
+    &__techs {
+      margin-right: -230px;
+    }
+  }
+  .similar__wrapper,
+  .other__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .similar,
+  .other {
+    .title {
+      font-size: 40px;
+      line-height: 48px;
+      margin-bottom: 30px;
+    }
+    &__inner{
+      padding: 40px 0;
+    }
+  }
   .footer {
     background: seagreen;
   }

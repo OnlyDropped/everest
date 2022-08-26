@@ -4032,6 +4032,29 @@ path:hover{
   .seo-category__title {
     padding-left: 20px;
   }
+  .product .title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .product-info__main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .similar__wrapper,
+  .other__wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+  }
+  .similar__inner,
+  .other__inner {
+    padding: 60px 0;
+  }
+  .other__inner {
+    padding-bottom: 80px;
+  }
   .footer {
     background: darkkhaki;
   }
@@ -4167,6 +4190,65 @@ path:hover{
   }
   .seo-category__info-title {
     margin: 45px 0 15px;
+  }
+  .product .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .product-info__main {
+    row-gap: 25px;
+  }
+  .product-info__main-card {
+    border: 1px solid #d8e1ea;
+  }
+  .tabs-main__tab {
+    padding-bottom: 15px;
+  }
+  .tabs-main__content {
+    padding-top: 30px;
+  }
+  .tabs-main__title {
+    font-size: 34px;
+    line-height: 38px;
+    margin-bottom: 25px;
+  }
+  .tabs-main__questions {
+    padding: 15px;
+  }
+  .tabs-main__questions-title {
+    font-size: 16px;
+    margin: 20px 0 8px;
+  }
+  .tabs-main__questions-text {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .tabs-main__questions-btn {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .tabs-main__info {
+    max-width: 480px;
+    width: 100%;
+  }
+  .tabs-main__techs {
+    margin-right: -230px;
+  }
+  .similar__wrapper,
+  .other__wrapper {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .similar .title,
+  .other .title {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+  .similar__inner,
+  .other__inner {
+    padding: 40px 0;
   }
   .footer {
     background: seagreen;
@@ -4352,6 +4434,115 @@ path:hover{
   }
   .category-filter {
     top: 89px;
+  }
+  .product__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .product-info__slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .tabs-main__tab {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .tabs-main__tab + .tabs-main__tab {
+    margin-left: 15px;
+  }
+  .tabs-main__review .tabs-main__span,
+  .tabs-main .tabs-main__question .tabs-main__span {
+    right: -10px;
+  }
+  .tabs-main__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tabs-main__techs {
+    margin-right: 0;
+  }
+  .tabs-main__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .tabs-main__items-span {
+    width: 100%;
+  }
+  .product-info {
+    /*
+    &__main {
+      border: 1px solid #000;
+    }*/
+  }
+  .product-info__top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 15px;
+  }
+  .product-info__preview {
+    width: 350px;
+    margin-top: 0;
+  }
+  .product-info__preview-item {
+    width: 88px !important;
+  }
+  .product-info__slider {
+    width: 350px;
+  }
+  .product-info__main-slider {
+    width: 350px;
+    margin-left: 0;
+    height: 280px;
+  }
+  .product-info__main-item {
+    height: 280px;
+  }
+  .product-info__main-card {
+    width: 320px;
+    height: 280px;
+  }
+  .product-info__main-img {
+    width: 280px;
+    height: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .similar .title,
+  .other .title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .similar__wrapper,
+  .other__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    white-space: nowrap;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .similar__wrapper::-webkit-scrollbar,
+  .other__wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .similar .category-content__item + .category-content__item,
+  .other .category-content__item + .category-content__item {
+    margin-left: 20px;
   }
   .footer {
     background: peru;

@@ -169,6 +169,102 @@
   .category-filter {
     top: 89px;
   }
+  .product {
+    &__title {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+  .product-info {
+    &__slider {
+      flex-direction: column-reverse;
+    }
+  }
+  .tabs-main {
+    &__tab {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &__tab + .tabs-main__tab {
+      margin-left: 15px;
+    }
+    &__review .tabs-main__span,
+    .tabs-main__question .tabs-main__span {
+      right: -10px;
+    }
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__techs {
+      margin-right: 0;
+    }
+    &__items {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+    }
+    &__items-span {
+      width: 100%;
+    }
+  }
+  .product-info {/*
+    &__main {
+      border: 1px solid #000;
+    }*/
+    &__top {
+      flex-wrap: wrap;
+      row-gap: 15px;
+    }
+    &__preview {
+      width: 350px;
+      margin-top: 0;
+    }
+    &__preview-item {
+      width: 88px !important;
+    }
+    &__slider {
+      width: 350px;
+    }
+    &__main-slider {
+      width: 350px;
+      margin-left: 0;
+      height: 280px;
+    }
+    &__main-item {
+      height: 280px;
+    }
+    &__main-card {
+      width: 320px;
+      height: 280px;
+    }
+    &__main-img {
+      width: 280px;
+      height: 180px;
+      object-fit: contain;
+    }
+  }
+  .similar,
+  .other {
+    .title {
+      font-size: 30px;
+      line-height: 35px;
+      margin-bottom: 25px;
+    }
+    &__wrapper {
+      display: flex;
+      white-space: nowrap;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    }
+    .category-content__item + .category-content__item {
+      margin-left: 20px;
+    }
+  }
   .footer {
     background: peru;
   }

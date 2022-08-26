@@ -926,7 +926,16 @@
         asNavFor: '.product-info__main-slider',
         dots: false,
         arrows: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [
+        {
+          breakpoint: 376,
+          settings: {
+            vertical: false,
+            verticalSwiping: false,
+          }
+        },
+        ]
       });
       $('.tabs-wrapper').each(function() {
 	let ths = $(this);

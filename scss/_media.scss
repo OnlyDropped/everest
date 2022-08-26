@@ -139,6 +139,32 @@
       padding-left: 20px;
     }
   }
+  .product {
+    .title {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+  .product-info {
+    &__main {
+      flex-wrap: wrap;
+    }
+  }
+  .similar__wrapper,
+  .other__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+  }
+  .similar__inner,
+  .other__inner {
+    padding: 60px 0;
+  }
+  .other {
+    &__inner {
+      padding-bottom: 80px;
+    }
+  }
   .footer {
     background: darkkhaki;
   }
