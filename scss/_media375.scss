@@ -39,6 +39,81 @@
     margin-left: -140px;
     row-gap: 15px;
     margin-top: 25px;
+  }
+
+  .slider {
+    &__inner {
+      padding: 30px 0px;
+    }
+  }
+  .main-slider {
+    &__card {
+      padding: 20px 15px;
+    }
+    &__title {
+      max-width: 100%;
+      font-size: 25px;
+      line-height: 35px;
+    }
+    &__more {
+      font-size: 16px;
+      line-height: 18px;
+      padding-left: 0;
+      &::before {
+        display: none;
+      }
+    }
+    .slick-arrow {
+      bottom: 20px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+    }
+    .slick-prev.slick-arrow {
+      right: 45px;
+    }
+  }
+  .title {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  .catalog {
+    &__inner {
+      padding: 30px 0px;
+    }
+  }
+  .news {
+    .container {
+      padding: 0;
+    }
+    .title {
+      margin-left: 15px;
+    }
+    &__content {
+      padding: 0 15px;
+      flex-wrap: nowrap;
+      overflow: auto;
+      margin-bottom: 50px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    }
+    &__item + .news__item {
+      margin-left: 20px;
+    }
+    &__tag + .news__tag {
+      margin-left: 20px;
+    }
+    &__item{
+      max-width: 350px;
+    }
+    &__head{
+      width: 350px;
+    }
   }/*
   .footer {
     background: peru;

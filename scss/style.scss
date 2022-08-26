@@ -2828,7 +2828,13 @@
   }
 }
 .header-top {
-  
+  &__hamburger {
+    display: none;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
 }
 @import "media";
 @import "media--768";
