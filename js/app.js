@@ -6,6 +6,10 @@ $('.main-slider').slick({
   nextArrow: '<button type="button" class="slick-next"><img src="img/icons/arrow-next.svg" alt=""></button>'
 });
 
+$('.header-top__hamburger').on('click', function name(params) {
+  $('.header-top__list').toggleClass('header-top__list--active');
+  $('.header-top__hamburger').toggleClass('header-top__hamburger--active');
+})
 
 const btn = document.querySelector('.header-bottom__menu');
 const js_menu = document.querySelector('.header-menu');
@@ -55,6 +59,9 @@ $('.lk-main__button').on('click', function name(params) {
 })
 */
 
+
+
+  
 
 
 

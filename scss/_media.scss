@@ -1,5 +1,5 @@
 @media (max-width: 1024px) {
-/*  .header {
+/* .header {
     background: tomato;
   }
   */
@@ -22,12 +22,18 @@
       top: 0;
       bottom: 0;
       background: cornflowerblue;
+      background-color: rgba(#fff, 0.9);
       z-index: 1;
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      display: none;
+      //display: none;
+      transform: translateX(-100%);
+      transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    &__list--active{
+      transform: translateX(0%);
     }
     &__item + .header-top__item {
       margin-left: 0;
@@ -39,6 +45,15 @@
     &__link {
       font-size: 20px;
       line-height: 28px;
+    }
+    &__hamburger{
+      display: block;
+      margin-left: auto;
+      z-index: 2;
+      transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    &__hamburger--active{
+      transform: rotate(90deg);
     }
   }
   .header-bottom {

@@ -1,8 +1,6 @@
 @media (max-width: 375px) {
-  .header {
-    /*
-    background: tan;
-    */
+  .header {/*
+    background: tan;*/
     img {
       width: 120px;
       height: 100px;
@@ -27,6 +25,15 @@
     &__wrapper {
       align-items: flex-start;
     }
+    &__phone,
+    &__town {
+      margin-left: -10px;
+    }
+    &__hamburger {
+      position: absolute;
+      right: 10px;
+      top: 25px;
+    }
   }
   .header-bottom {
     margin-left: -140px;
@@ -42,7 +49,7 @@
       padding: 40px 0px;
       row-gap: 15px;
     }
-    &__list{
+    &__list {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -60,7 +67,7 @@
     &__list {
       flex-direction: column;
     }
-    &__item{
+    &__item {
       text-align: center;
     }
     &__item + .footer-bottom__item {

@@ -416,6 +416,15 @@ path:hover{
   padding-bottom: 14px;
 }
 
+.header-top__hamburger {
+  display: none;
+}
+
+.header-top__hamburger svg {
+  width: 30px;
+  height: 30px;
+}
+
 .header-top__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3684,7 +3693,7 @@ path:hover{
 
 .buy-now__wrapper {
   padding: 100px 0 80px;
-  border-top: 1px solid #D8E1EA;
+  border-top: 1px solid #d8e1ea;
 }
 
 .buy-now__title {
@@ -3876,7 +3885,7 @@ path:hover{
 }
 
 @media (max-width: 1024px) {
-  /*  .header {
+  /* .header {
     background: tomato;
   }
   */
@@ -3897,6 +3906,7 @@ path:hover{
     top: 0;
     bottom: 0;
     background: cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 1;
     height: 100vh;
     display: -webkit-box;
@@ -3909,7 +3919,14 @@ path:hover{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    display: none;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .header-top__list--active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
   .header-top__item + .header-top__item {
     margin-left: 0;
@@ -3921,6 +3938,17 @@ path:hover{
   .header-top__link {
     font-size: 20px;
     line-height: 28px;
+  }
+  .header-top__hamburger {
+    display: block;
+    margin-left: auto;
+    z-index: 2;
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .header-top__hamburger--active {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   .header-bottom__total {
     display: none;
@@ -3946,8 +3974,7 @@ path:hover{
 @media (max-width: 768px) {
   .header {
     /*
-    background: skyblue;
-    */
+    background: skyblue;*/
   }
   .header .header-menu {
     top: 226px;
@@ -3998,8 +4025,7 @@ path:hover{
 @media (max-width: 375px) {
   .header {
     /*
-    background: tan;
-    */
+    background: tan;*/
   }
   .header img {
     width: 120px;
@@ -4027,6 +4053,14 @@ path:hover{
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .header-top__phone, .header-top__town {
+    margin-left: -10px;
+  }
+  .header-top__hamburger {
+    position: absolute;
+    right: 10px;
+    top: 25px;
   }
   .header-bottom {
     margin-left: -140px;
