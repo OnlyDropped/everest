@@ -170,7 +170,7 @@
     top: 89px;
   }
   .product {
-    &__title {
+    .title {
       font-size: 25px;
       line-height: 35px;
     }
@@ -207,7 +207,8 @@
       width: 100%;
     }
   }
-  .product-info {/*
+  .product-info {
+    /*
     &__main {
       border: 1px solid #000;
     }*/
@@ -263,6 +264,114 @@
     }
     .category-content__item + .category-content__item {
       margin-left: 20px;
+    }
+  }
+  .cart {
+    &__inner {
+      padding: 15px 0px 25px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    &__delete {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &__item {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    &__info {
+      width: 100%;
+    }
+    .category-content__price {
+      margin: 0;
+    }
+    &__total {
+      width: 100%;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+    &__btn {
+      padding: 16px 26px;
+      font-size: 15px;
+      line-height: 20px;
+      margin: 0;
+    }
+    &__price {
+      width: 100%;
+    }
+    &__price-new {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  .cart-checkout {
+    .title {
+      font-size: 27px;
+      line-height: 40px;
+      margin-bottom: 25px;
+    }
+    &__user {
+      display: none;
+    }
+    &__text {
+      margin-left: 0;
+    }
+    &__head-title {
+      font-size: 22px;
+      line-height: 26px;
+      margin-left: auto;
+    }
+    &__tab {
+      padding-bottom: 15px;
+    }
+  }
+  .cart-content {
+    &__payment {
+      .tovar-info__span {
+        width: 100%;
+      }
+    }
+  }
+  .cart-content__payment .tovar-info__span {
+    padding: 20px;
+  }
+  .lk-main {
+    .title {
+      font-size: 38px;
+    }
+    &__info {
+      margin-top: 35px;
+      width: 100%;
+      max-width: 100%;
+      margin-left: -50px;
+    }
+    &__items {
+      padding: 25px 20px;
+    }
+  }
+  .intro {
+    &__info {
+      padding: 20px;
+    }
+    &__content {
+      width: 100%;
+    }
+    .title {
+      color: #fff;
+    }
+  }
+  .delivery-content {
+    &__wrapper {
+      flex-direction: column;
+      row-gap: 15px;
+    }
+    .title {
+      font-size: 25px;
+      line-height: 35px;
+      margin-bottom: 20px;
     }
   }
   .footer {

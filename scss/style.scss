@@ -1780,6 +1780,9 @@
   }
 }
 .lk-main {
+  &__filter{
+    display: none;
+  }
   &__inner {
     padding: 34px 0 160px;
   }

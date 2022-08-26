@@ -16,6 +16,10 @@ $('.category-content__filter-sort').on('click', function name(params) {
   $('.category-filter').toggleClass('category-filter--active');
 })
 
+$('.lk-main__filter').on('click', function name(params) {
+  $('.lk-main__menu').toggleClass('lk-main__menu--active');
+});
+
 const btn = document.querySelector('.header-bottom__menu');
 const js_menu = document.querySelector('.header-menu');
 
