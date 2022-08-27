@@ -3899,9 +3899,9 @@ path:hover{
 }
 
 @media (max-width: 1024px) {
-  .header {
+  /*  .header {
     background: tomato;
-  }
+  }*/
   .header__logo {
     margin-right: 20px;
   }
@@ -4126,9 +4126,67 @@ path:hover{
   .delivery-content__info {
     width: 100%;
   }
+  .lk-orders-item__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+  }
+  .payment__inner {
+    padding: 20px 0 100px;
+  }
+  .payment__items {
+    width: 480px;
+    padding: 25px;
+  }
+  .phone__tel {
+    font-size: 50px;
+    line-height: 20px;
+  }
+  .contacts__inner {
+    padding: 35px 0;
+  }
+  .contacts__item {
+    width: 485px;
+    padding: 25px;
+  }
+  .partners__inner {
+    padding: 55px 0;
+  }
+  .partners__wrapper {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    justify-items: center;
+  }
+  .news-item .title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .news-item__info {
+    width: 640px;
+  }
+  .news-item__img {
+    width: 640px;
+    height: 350px;
+  }
+  .buy-now__inner {
+    padding: 50px 0px;
+  }
+  .buy-now__content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .buy-now__wrapper {
+    padding: 80px 0 80px;
+  }
+  /*
   .footer {
     background: darkkhaki;
-  }
+  }*/
   .footer-top__inner {
     padding: 60px 0 60px;
   }
@@ -4139,7 +4197,8 @@ path:hover{
 
 @media (max-width: 768px) {
   .header {
-    background: skyblue;
+    /*
+    background: skyblue;*/
   }
   .header .header-menu {
     top: 226px;
@@ -4425,9 +4484,84 @@ path:hover{
     margin-top: 25px;
     width: 100%;
   }
+  .lk-main__inner {
+    padding: 0px 0 80px;
+  }
+  .contacts__info {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .contacts__info::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .contacts__item {
+    max-width: 500px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .company-details__content {
+    width: 500px;
+  }
+  .company-details__download {
+    width: 170px;
+    padding: 20px;
+  }
+  .partners__wrapper {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .payment .title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .payment__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .payment__items {
+    width: 100%;
+  }
+  .news-cart__content {
+    row-gap: 50px;
+  }
+  .news-cart .news__item {
+    max-width: 320px;
+  }
+  .news-item__right-side {
+    display: none;
+  }
+  .news-item__description {
+    margin: 60px 0;
+  }
+  .buy-now__content {
+    justify-items: center;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .buy-now__wrapper {
+    padding: 60px 0px;
+  }
+  .page-404__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    row-gap: 10px;
+  }
+  .page-404__inner {
+    padding: 34px 0px;
+  }
+  /*
   .footer {
     background: seagreen;
-  }
+  }*/
   .footer-top__logo img {
     width: 150px;
     height: 100px;
@@ -4452,7 +4586,8 @@ path:hover{
 
 @media (max-width: 375px) {
   .header {
-    background: tan;
+    /*
+    background: tan;*/
   }
   .header img {
     width: 120px;
@@ -4825,9 +4960,126 @@ path:hover{
     line-height: 35px;
     margin-bottom: 20px;
   }
+  .lk-orders-item__list {
+    width: 100%;
+  }
+  .lk-orders-item__items-title {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .lk-orders-item__new-price span {
+    margin-left: 0;
+  }
+  .lk-orders-item__content .cart__total {
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+  }
+  .payment .title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .payment__items-title {
+    margin: 25px 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .payment__span {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .partners__wrapper {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .phone__tel {
+    font-size: 30px;
+    line-height: 28px;
+  }
+  .phone__text, .phone__feedback {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .company-details .title {
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .company-details__wrapper {
+    row-gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .company-details__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .company-details__text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .company-details__content {
+    width: 100%;
+  }
+  .contacts__item {
+    width: 400px;
+    white-space: nowrap;
+  }
+  .contacts__img {
+    width: 250px;
+    height: 250px;
+  }
+  .news-cart .news__head {
+    width: 100%;
+    min-height: 290px;
+  }
+  .news-item__inner {
+    padding: 35px 0px;
+  }
+  .news-item .title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .news-item__img {
+    width: 100%;
+    height: 200px;
+  }
+  .news-item__description-title {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .news-item__content {
+    padding-bottom: 40px;
+  }
+  .news-item__bottom .news-item__views {
+    margin-left: 10px;
+  }
+  .buy-now .title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .buy-now__content {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .page-404__error {
+    width: 100%;
+    font-size: 150px;
+    line-height: 175px;
+  }
+  /*
   .footer {
     background: peru;
-  }
+  }*/
   .footer-top__inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;

@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
-  .header {
+/*  .header {
     background: tomato;
-  }
+  }*/
   .header {
     &__logo {
       margin-right: 20px;
@@ -229,16 +229,81 @@
     }
   }
   .delivery-content {
-    &__inner{
+    &__inner {
       padding: 80px 0;
     }
     &__info {
       width: 100%;
     }
   }
+  .lk-orders-item {
+    &__body {
+      flex-direction: column;
+      row-gap: 15px;
+    }
+  }
+  .payment {
+    &__inner {
+      padding: 20px 0 100px;
+    }
+    &__items {
+      width: 480px;
+      padding: 25px;
+    }
+  }
+  .phone {
+    &__tel {
+      font-size: 50px;
+      line-height: 20px;
+    }
+  }
+  .contacts {
+    &__inner {
+      padding: 35px 0;
+    }
+    &__item {
+      width: 485px;
+      padding: 25px;
+    }
+  }
+  .partners {
+    &__inner {
+      padding: 55px 0;
+    }
+    &__wrapper {
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 20px;
+      justify-items: center;
+    }
+  }
+  .news-item {
+    .title {
+      font-size: 36px;
+      line-height: 45px;
+    }
+    &__info {
+      width: 640px;
+    }
+    &__img {
+      width: 640px;
+      height: 350px;
+    }
+  }
+  .buy-now {
+    &__inner {
+      padding: 50px 0px;
+    }
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &__wrapper {
+      padding: 80px 0 80px;
+    }
+  }/*
   .footer {
     background: darkkhaki;
-  }
+  }*/
   .footer-top {
     &__inner {
       padding: 60px 0 60px;
